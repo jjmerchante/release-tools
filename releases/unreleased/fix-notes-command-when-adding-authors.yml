@@ -1,0 +1,8 @@
+---
+title: Fix `notes` command when adding authors
+category: fixed
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: 46
+notes: >
+  notes command was removing the last author when
+  the file did not end with a blank line.
